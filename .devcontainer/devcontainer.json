@@ -1,0 +1,14 @@
+{
+  "name": "My Web Test Container",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "web",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "ms-vscode-remote.remote-containers",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/sh"
+  }
+}
